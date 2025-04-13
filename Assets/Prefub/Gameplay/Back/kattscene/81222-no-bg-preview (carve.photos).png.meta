@@ -1,0 +1,681 @@
+fileFormatVersion: 2
+guid: 3f7bf883d13b059438ee8c2d4b41716e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 81222-no-bg-preview (carve.photos)_0
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 614
+        width: 200
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c15176351c102c47ac22da404cc1675
+      internalID: 1453979027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 81222-no-bg-preview (carve.photos)_1
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 709
+        width: 42
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2bae14bc12812046bf90fa77b5dc41b
+      internalID: 1075889639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 81222-no-bg-preview (carve.photos)_2
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 723
+        width: 51
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50d111b857848848a9923bb7867ccf7
+      internalID: -869549956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 81222-no-bg-preview (carve.photos)_3
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 723
+        width: 47
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac51494ee837cdd408a909453f22dd45
+      internalID: 2083092191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 81222-no-bg-preview (carve.photos)_4
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 723
+        width: 51
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db911f2b3facf4e459dd77f2a54a0210
+      internalID: -1207990319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 81222-no-bg-preview (carve.photos)_5
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 723
+        width: 56
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5387a2a8ed9dd074a9b20e552cc88f74
+      internalID: -1023304025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 81222-no-bg-preview (carve.photos)_6
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 723
+        width: 49
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb7a8713dc032546b2d5da98a204596
+      internalID: 1370785165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 81222-no-bg-preview (carve.photos)_7
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 722
+        width: 45
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f04e8877a2911b43abd4d8cf3a8e759
+      internalID: 1965927240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 81222-no-bg-preview (carve.photos)_8
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 723
+        width: 49
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a818ab9f84350a4989633b5c86d7725
+      internalID: -33400927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 81222-no-bg-preview (carve.photos)_9
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 662
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1abf770e7c4db8b418781bad6cd414be
+      internalID: -1950640447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 81222-no-bg-preview (carve.photos)_10
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 662
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66dce2217abb35c4aa6ec373b662bd4c
+      internalID: -1138392648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 81222-no-bg-preview (carve.photos)_11
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 662
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2732b1ae92397c54fa92d20545045359
+      internalID: -1061847588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 81222-no-bg-preview (carve.photos)_12
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 662
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acae8caf1c07f924b87073b2d438b90c
+      internalID: 2036048113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 81222-no-bg-preview (carve.photos)_13
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 662
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af41186ef4a751c45bb449fdec22caf9
+      internalID: 307637554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 81222-no-bg-preview (carve.photos)_14
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 662
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09671dd113f0a5543b77b7ed326218f0
+      internalID: -1246722715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 81222-no-bg-preview (carve.photos)_15
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 662
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef48372719113941858b1c4ce162aa8
+      internalID: -11694994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 81222-no-bg-preview (carve.photos)_16
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 362
+        width: 220
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 812d77a335f24ec42bca7a2ecf500b24
+      internalID: 1706139845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 81222-no-bg-preview (carve.photos)_17
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 362
+        width: 174
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6a080042e2cc64aad3c535171a9eb9
+      internalID: 7328980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 81222-no-bg-preview (carve.photos)_18
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 360
+        width: 174
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e74abb1f64960c746b0a7c4878ce4d8c
+      internalID: -75529831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 81222-no-bg-preview (carve.photos)_19
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 382
+        width: 192
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94af15b3e6d756f45921afbe38bca98b
+      internalID: -1683265407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 81222-no-bg-preview (carve.photos)_20
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 70
+        width: 187
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a9a0e48a2388641811a33842a8f5b6
+      internalID: -436754966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 81222-no-bg-preview (carve.photos)_21
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 74
+        width: 266
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b9a6f44b4d2dd489637f4a966a2548
+      internalID: 106788842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 81222-no-bg-preview (carve.photos)_22
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 36
+        width: 146
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832fc530668af7340888d0d82d54b31a
+      internalID: 722914620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 81222-no-bg-preview (carve.photos)_23
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 66
+        width: 188
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56894063b49343498cb50b9a49f9d8b
+      internalID: 1354380923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      81222-no-bg-preview (carve.photos)_0: 1453979027
+      81222-no-bg-preview (carve.photos)_1: 1075889639
+      81222-no-bg-preview (carve.photos)_10: -1138392648
+      81222-no-bg-preview (carve.photos)_11: -1061847588
+      81222-no-bg-preview (carve.photos)_12: 2036048113
+      81222-no-bg-preview (carve.photos)_13: 307637554
+      81222-no-bg-preview (carve.photos)_14: -1246722715
+      81222-no-bg-preview (carve.photos)_15: -11694994
+      81222-no-bg-preview (carve.photos)_16: 1706139845
+      81222-no-bg-preview (carve.photos)_17: 7328980
+      81222-no-bg-preview (carve.photos)_18: -75529831
+      81222-no-bg-preview (carve.photos)_19: -1683265407
+      81222-no-bg-preview (carve.photos)_2: -869549956
+      81222-no-bg-preview (carve.photos)_20: -436754966
+      81222-no-bg-preview (carve.photos)_21: 106788842
+      81222-no-bg-preview (carve.photos)_22: 722914620
+      81222-no-bg-preview (carve.photos)_23: 1354380923
+      81222-no-bg-preview (carve.photos)_3: 2083092191
+      81222-no-bg-preview (carve.photos)_4: -1207990319
+      81222-no-bg-preview (carve.photos)_5: -1023304025
+      81222-no-bg-preview (carve.photos)_6: 1370785165
+      81222-no-bg-preview (carve.photos)_7: 1965927240
+      81222-no-bg-preview (carve.photos)_8: -33400927
+      81222-no-bg-preview (carve.photos)_9: -1950640447
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
