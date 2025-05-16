@@ -37,7 +37,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 4
-    m_ConditionEvent: HorizontalMove
+    m_ConditionEvent: Speed
     m_EventTreshold: 0.01
   - m_ConditionMode: 2
     m_ConditionEvent: Jump
@@ -65,10 +65,10 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 4
-    m_ConditionEvent: HorizontalMove
+    m_ConditionEvent: Speed
     m_EventTreshold: 0.01
   - m_ConditionMode: 2
-    m_ConditionEvent: Attack1
+    m_ConditionEvent: Attack_Up
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 2538206710272175835}
@@ -93,7 +93,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: Attack1
+    m_ConditionEvent: Attack_Up
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1470841257035097263}
@@ -172,7 +172,7 @@ AnimatorStateMachine:
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 320, y: 160, z: 0}
-  m_EntryPosition: {x: 50, y: 120, z: 0}
+  m_EntryPosition: {x: -80, y: 60, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: 2538206710272175835}
@@ -185,7 +185,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 3
-    m_ConditionEvent: HorizontalMove
+    m_ConditionEvent: Speed
     m_EventTreshold: 0.01
   - m_ConditionMode: 2
     m_ConditionEvent: Jump
@@ -238,10 +238,10 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 3
-    m_ConditionEvent: HorizontalMove
+    m_ConditionEvent: Speed
     m_EventTreshold: 0.01
   - m_ConditionMode: 2
-    m_ConditionEvent: Attack2
+    m_ConditionEvent: Attack_Forward
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 9108192499746876639}
@@ -294,7 +294,7 @@ AnimatorController:
   m_Name: Player
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: HorizontalMove
+  - m_Name: Speed
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -312,13 +312,13 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: Attack1
+  - m_Name: Attack_Up
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: Attack2
+  - m_Name: Attack_Forward
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -461,7 +461,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 3
-    m_ConditionEvent: HorizontalMove
+    m_ConditionEvent: Speed
     m_EventTreshold: 0.01
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 9108192499746876639}
@@ -511,7 +511,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: Attack1
+    m_ConditionEvent: Attack_Up
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1470841257035097263}
@@ -536,10 +536,10 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: Attack2
+    m_ConditionEvent: Attack_Forward
     m_EventTreshold: 0
   - m_ConditionMode: 4
-    m_ConditionEvent: HorizontalMove
+    m_ConditionEvent: Speed
     m_EventTreshold: 0.01
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 2538206710272175835}
@@ -564,7 +564,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: Attack2
+    m_ConditionEvent: Attack_Forward
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -3137682325044947267}
@@ -620,7 +620,7 @@ AnimatorStateTransition:
     m_ConditionEvent: Run
     m_EventTreshold: 1
   - m_ConditionMode: 3
-    m_ConditionEvent: HorizontalMove
+    m_ConditionEvent: Speed
     m_EventTreshold: 0.01
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 5282149061606606954}
@@ -645,7 +645,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: Attack2
+    m_ConditionEvent: Attack_Forward
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -3137682325044947267}
@@ -670,7 +670,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 4
-    m_ConditionEvent: HorizontalMove
+    m_ConditionEvent: Speed
     m_EventTreshold: 0.01
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 2538206710272175835}
@@ -695,10 +695,10 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 3
-    m_ConditionEvent: HorizontalMove
+    m_ConditionEvent: Speed
     m_EventTreshold: 0.01
   - m_ConditionMode: 2
-    m_ConditionEvent: Attack1
+    m_ConditionEvent: Attack_Up
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 9108192499746876639}
@@ -723,11 +723,8 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 4
-    m_ConditionEvent: HorizontalMove
+    m_ConditionEvent: Speed
     m_EventTreshold: 0.01
-  - m_ConditionMode: 2
-    m_ConditionEvent: Run
-    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 2538206710272175835}
   m_Solo: 0

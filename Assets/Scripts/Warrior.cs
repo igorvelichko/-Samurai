@@ -5,74 +5,72 @@ using UnityEngine;
 public class Warrior : MonoBehaviour
 {
     public float speed = 3f;
-    public float jump = 5f;
+    public float jump = 25f;
     public Animator anim;
+    public int health = 100;
+    public int damage;
 
-    Rigidbody2D rb;
-    SpriteRenderer sr;
+    protected Rigidbody2D rb;
+    protected SpriteRenderer sr;
 
-    private void Start()
+    protected void Startrb()
     {
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
     }
 
-    void Update()
+    protected void Flipx()
     {
-        float movement = Input.GetAxis("Horizontal");
-        transform.position += new Vector3(movement, 0, 0) * speed * Time.deltaTime;
-
-        if(Input.GetKeyDown(KeyCode.Space) && Mathf.Abs(rb.velocity.y) < 0.1f)
-        {
-            rb.AddForce(new Vector2(0, jump), ForceMode2D.Impulse);
-            StartCoroutine(Jump());
-        }
-
-        if (Input.GetKey(KeyCode.LeftShift) && Mathf.Abs(rb.velocity.y) < 0.1f)
-        {
-            speed = 10f;
-            anim.SetBool("Run", true);
-        }
-        else
-        {
-            speed = 3f;
-            anim.SetBool("Run", false);
-        }
-        if(Input.GetKeyDown(KeyCode.Mouse0) && Mathf.Abs(rb.velocity.y) < 0.1f)
-        {
-            StartCoroutine(Attack1());
-        }
-        if (Input.GetKeyDown(KeyCode.Mouse1) && Mathf.Abs(rb.velocity.y) < 0.1f)
-        {
-            StartCoroutine(Attack2());
-        }
-
-        sr.flipX = movement < 0 ? true : false;
-
-        anim.SetFloat("HorizontalMove", Mathf.Abs(movement));
+        if (Input.GetKeyDown(KeyCode.A))
+            sr.flipX = true;
+        if (Input.GetKeyDown(KeyCode.D))
+            sr.flipX = false;
     }
 
-    IEnumerator Jump()
+    protected void Pray(bool norm)
+    {
+        if (norm)
+            anim.SetBool("Pray", true);
+        else
+            anim.SetBool("Pray", false);
+    }
+
+    protected void Eat(bool norm)
+    {
+        if (norm)
+            anim.SetBool("Eat", true);
+        else
+            anim.SetBool("Eat", false);
+    }
+
+    protected IEnumerator Jump()
     {
         anim.SetBool("Jump", true);
         yield return new WaitForSeconds(1.5f);
         anim.SetBool("Jump", false);
     }
 
-    IEnumerator Attack1()
+    protected IEnumerator Attack_Up()
     {
-        anim.SetBool("Attack1", true);
+        anim.SetBool("Attack_Up", true);
         yield return new WaitForSeconds(1f);
-        anim.SetBool("Attack1", false);
+        anim.SetBool("Attack_Up", false);
     }
-    IEnumerator Attack2()
+    protected IEnumerator Attack_Forward()
     {
-        anim.SetBool("Attack2", true);
+        anim.SetBool("Attack_Forward", true);
         yield return new WaitForSeconds(0.5f);
-        anim.SetBool("Attack2", false);
+        anim.SetBool("Attack_Forward", false);
     }
 
-    IEnumerator Dead()
+    protected IEnumerator Attack_Down()
+    {
+        anim.SetBool("Attack_Down", true);
+        yield return new WaitForSeconds(1f);
+        anim.SetBool("Attack_Down", false);
+    }
+
+    protected IEnumerator Dead()
     {
         anim.SetBool("Dead", true);
         yield return new WaitForSeconds(3f);
