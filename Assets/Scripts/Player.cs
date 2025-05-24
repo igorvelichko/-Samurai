@@ -38,9 +38,10 @@ public class Player : Warrior
         {
             StartCoroutine(Attack_Forward());
         }
-
-        Flipx();
-
+        if (Input.GetKeyDown(KeyCode.A))
+            Flipx(true);
+        if (Input.GetKeyDown(KeyCode.D))
+            Flipx(false);
         anim.SetFloat("Speed", Mathf.Abs(movement));
     }
 }

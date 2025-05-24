@@ -19,11 +19,17 @@ public class Warrior : MonoBehaviour
         sr = GetComponent<SpriteRenderer>();
     }
 
-    protected void Flipx()
+    protected void Walk(GameObject checkpoint, GameObject bot)
     {
-        if (Input.GetKeyDown(KeyCode.A))
+        bot.transform.position = Vector2.MoveTowards(bot.transform.position, checkpoint.transform.position, Time.deltaTime * speed);
+        anim.SetFloat("Speed", 1f);
+    }
+
+    protected void Flipx(bool left)
+    {
+        if (left)
             sr.flipX = true;
-        if (Input.GetKeyDown(KeyCode.D))
+        if (!left)
             sr.flipX = false;
     }
 

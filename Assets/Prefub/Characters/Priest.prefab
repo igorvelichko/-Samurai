@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2021594812528113707}
   - component: {fileID: 6123805942953078895}
   - component: {fileID: 2515775254846464981}
+  - component: {fileID: 8151516695030576349}
   m_Layer: 0
   m_Name: Priest
   m_TagString: Untagged
@@ -170,3 +171,22 @@ CapsuleCollider2D:
   m_Offset: {x: -0.049202412, y: 0.02004525}
   m_Size: {x: 0.24159521, y: 0.61990947}
   m_Direction: 0
+--- !u!114 &8151516695030576349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4672736255781690790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf7489f9db80f0a4898c1755627597d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
+  jump: 25
+  anim: {fileID: 2021594812528113707}
+  health: 100
+  damage: 0
+  checkpoints:
+  - {fileID: 0}
